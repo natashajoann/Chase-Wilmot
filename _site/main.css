@@ -28,6 +28,7 @@ img{
 
 .primary-button:hover{
   border: 2px solid #B7C1EB;
+  background-color:#7A89C8;
   color:white;
 }
 
@@ -38,6 +39,7 @@ img{
 
 .secondary-button:hover{
   border 2px solid #B7C1EB;
+  background-color:#7A89C8;
   color:white;
 }
 
