@@ -2,8 +2,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/sdl4tiz.css">
+<!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <!-- GRIDLEX -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+<!-- Favicon -->
+<link rel="shortcut icon" type"imgage/png" href="/images/favicon.png"
 <!-- TAGS -->
   <title> Chase Wilmot </title>
     <meta property="og:title" content="Chase Wilmot"/>
@@ -18,9 +25,10 @@
 <body>
 
   <nav class="naviagtion grid">
-    <div class="col-7 logo">
-      <!-- add image -->
+    <div class="col-4 logo">
     </div>
+
+    <div class="col-3"></div>
 
     <div class="col-5 regular-menu display-none space-around">
       <a href="/"> Home </a>
@@ -29,20 +37,32 @@
       <a href=""="/contact"> Contact </a>
     </div>
 
-
-
-
-  <!-- ADD NAV AND BURGER MENU -->
   </nav>
+
+<!-- Burger -->
+<nav class="mobil-menu">
+    <div class="burger-button">
+        <span class="burger-top"></span>
+        <span class="burger-middle"></span>
+        <span class="burger-bottom"></span>
+    </div>
+    <div class="burger-menu">
+      <a href="/">Home</a>
+      <a href="/web-dev">Services</a>
+      <a href="/media">About</a>
+      <a href="/media">Contact</a>
+    </div>
+</nav>
 
   {{content}}
 
 
 <div class="IG-feed">
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/bf9c5da5674651319d08c72a50a54e04.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 </div>
 
 <footer class="grid footer centered">
-  <div class="col-12 footer-menu space-around">
+  <div class="col-7 footer-menu space-around">
     <a href="/"> Home </a>
     <a href="/services"> Services </a>
     <a href="/about"> About </a>

@@ -24,6 +24,26 @@ p{
   margin-bottom:20px;
 }
 
+h1{
+  font-family: 'Yeseva One', cursive;
+}
+
+h2, h3, a {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight:500;
+  line-height: 28px;
+}
+
+h2{
+  font-size:30px;
+}
+
+h4, p, h5 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight:300;
+  font-size:17px;
+}
+
 /* Helper Classes */
 .centered{
   text-align:center;
@@ -46,6 +66,7 @@ p{
 
 .secondary-button{
   border: 2px solid #7A89C8;
+  background-color:#7A89C8;
   padding:10px;
 }
 
@@ -67,7 +88,16 @@ p{
 
 /* Nav */
 nav{
-padding:20px;
+  padding: 0 2rem;
+  padding-left: 4rem;
+}
+
+.mobile-menu{
+  display:none;
+}
+
+.regular-menu a{
+  margin-top: 23%;
 }
 
 .regular-menu a:hover{
@@ -75,6 +105,22 @@ padding:20px;
   transition:0.35s;
 }
 
+.logo{
+  background-image:url("/images/CW_LOGO_MASTER_WIDE.jpeg");
+  background-position:center;
+  background-size:cover;
+  padding: 3rem;
+}
+
+/* Burger */
+
+.mobile-menu{
+  display:none;
+}
+
+.burger-menu{
+  display:none;
+}
 /* header */
 
 .ml9 {
@@ -99,7 +145,7 @@ padding:20px;
 }
 
 .title{
-  padding:5rem 5rem 5rem;
+  padding:3rem 5rem 3rem;
 }
 
 .title-img{
@@ -110,16 +156,21 @@ padding:20px;
 }
 
 .title-intro{
-  padding: 4rem 2rem 3rem 5rem;
-    margin-bottom: 1rem;
+  padding: 3rem 0rem 2rem 4rem;    margin-bottom: 1rem;
 }
 
 
 /* SERVICES on HOME */
 
+
 .title-services{
   padding:4rem;
   background-color:#EE5219;
+}
+
+.services-text a{
+  color:white;
+  border: 2px solid white;
 }
 
 .big-quote{
@@ -132,17 +183,34 @@ padding:20px;
 
 .services-text{
   color:white;
-  padding:3rem;
-  padding-right:1rem;
+  padding: 3rem 5rem;
+  padding-right: 3rem;
   padding-bottom:2rem;
 }
 
 /* TESTIMONIALS */
 
+.quote-mark{
+  text-align:right;
+  padding:0;
+}
+
+.quote-mark h1{
+  width: 90%;
+  font-size: 126px;
+  line-height: 44px;
+  font-family: 'Playfair Display', serif;
+}
+
 .testimonials{
-  padding:12rem 7rem;
+  height: 66vh;
+  padding: 4rem 0rem 11rem 7rem;
   background-color:#E7AEE3;
   color:white;
+}
+
+.testimonials p{
+  font-size:22px;
 }
 
 /* .slideshow-container{
@@ -159,7 +227,6 @@ padding:20px;
   text-align:center;
 }
 
-/* ADD CSS FOR SLIDES */
 
 /* TITLE ABOUT */
 
@@ -182,9 +249,59 @@ padding:20px;
 
 /* Footer */
 
-.footer-link:hover{
-  color:#e5bc5c;
+.footer-menu{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
 }
+
+.footer-menu a:hover{
+  color:#7A89C8;
+}
+
+/* services page */
+.services, .schedule {
+  padding:2rem 5rem;
+}
+
+.services-title{
+  margin-bottom:2rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+
+
+.services p{
+  padding:0rem 4rem 2rem;;
+  width:80%;
+  margin:auto;
+  margin-bottom:3rem;
+}
+
+.third-service p{
+  padding-bottom:0;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -192,6 +309,119 @@ padding:20px;
 .display-none{
   display:none;
 }
+
+.regular-menu{
+  display:none;
+}
+
+/* BURGER MENU */
+.burger-button {
+right:2vh;
+}
+
+.burger-menu{
+right:0;
+width:100%;
+background-color: rgba(255,255,255,0.89);
+height: 103vh;
+background-color: rgba(255,255,255,0.89);
+}
+
+.burger-menu a{
+font-size:30px;
+white-space: normal;
+}
+
+.mobil-menu{
+    display:block;
+  }
+
+  .burger-menu{
+    display:block;
+  }
+
+  .nav-menu{
+    display:none;
+  }
+
+  .burger-button{
+    position:fixed;
+    top:4vh;
+    right:0vh;
+    z-index:9;
+    padding:8px;
+  }
+
+  .burger-button span{
+    width:30px;
+    border: 2px solid #e3b053;
+    background-color:#e3b053;
+    display: block;
+    border-radius:22px;
+    transition: 1s;
+  }
+
+  .burger-button.active span{
+    background-color:#e3b053;
+  }
+
+  .burger-top, .burger-bottom{
+    position:absolute;
+  }
+
+  .burger-top{
+    top:02px;
+  }
+
+  .burger-bottom{
+    bottom:2px;
+  }
+
+  .burger-button.active .burger-middle{
+/*   transform: rotateZ(270deg); */
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+    display: none;
+    width:100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:rgba(250, 250, 250, 0.9);
+    z-index: 8;
+    padding-top:26px;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #7a7876;
+  display:block;
+  padding:1rem 2rem;
+  text-align: center;
+  white-space:nowrap;
+}
+
+.burger-menu li{list-style:none}
 
 
 }

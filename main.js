@@ -1,5 +1,27 @@
 $(document).ready(function() {
 
+
+  // BURGER menu
+
+     $(".burger-button").click(function(){
+       $(".burger-button").toggleClass("active");
+       $(".burger-menu").slideToggle();
+     });
+
+
+     $(".burger-menu").click(function(){
+       $(".burger-button").toggleClass("active");
+       $(".burger-menu").slideToggle();
+     });
+
+
+     $( document ).ready(function() {
+     $(".dropdown-nav").click(function(){
+         $(this).children(".dropdown-content").slideToggle("200");
+       });
+     });
+
+//SLIDES
 var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -35,10 +57,11 @@ anime.timeline({loop: true})
     duration: 1500,
     elasticity: 600,
     delay: (el, i) => 45 * (i+1)
-  }).add({
+  })
+  .add({
     targets: '.ml9',
     opacity: 0,
-    duration: 1000,
+    duration: 70000000000,
     easing: "easeOutExpo",
     delay: 1000
   });
