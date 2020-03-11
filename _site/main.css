@@ -25,7 +25,7 @@ a{
 /* FONTS */
 
 :-webkit-any(article,aside,nav,section) h1{
-  font-size:64px;
+  font-size:55px;
 }
 
 p{
@@ -179,7 +179,12 @@ nav{
   color:white;
   border-right: 2px solid white;
   font-size: 50px;
-  line-height: 47px;
+  padding-right:20px;
+}
+
+.big-quote h1{
+  line-height: 1em;
+  font-size:60px;
 }
 
 .services-text{
@@ -199,13 +204,13 @@ nav{
 .quote-mark h1{
   width: 90%;
   font-size: 126px;
-  line-height: 44px;
-  font-family: 'Playfair Display', serif;
+  line-height: 0px;
+  font-family: 'Macondo', cursive;
 }
 
 .testimonials{
   height: 66vh;
-  padding: 4rem 0rem 11rem 7rem;
+  padding: 8rem 0rem 10rem 8rem;
   background-color:#E7AEE3;
   color:white;
 }
@@ -232,7 +237,7 @@ nav{
 /* TITLE ABOUT */
 
 .info{
-  padding:4rem;
+  padding:4rem 4rem 0;
 }
 
 .info-text{
@@ -250,11 +255,23 @@ nav{
 
 /* Footer */
 
+.IG-info{
+  background-color:#EFEDE1;
+  padding:2rem;
+}
+
 .footer-menu{
   width: 80%;
   margin: auto;
   margin-top: 10px;
+  margin-bottom:12px;
 }
+
+.copyrights h5{
+  font-size:12px;
+  line-height:0px;
+}
+
 
 .footer-menu a:hover{
   color:#7A89C8;
@@ -263,6 +280,7 @@ nav{
 /* services page */
 .services {
   padding:5rem 5rem 0;
+  position:relative;
 }
 
 .services-title{
@@ -304,16 +322,26 @@ nav{
 }
 
 .services a{
-  border: 2px solid #7A89C8;
-  padding:5px;
-  color:#7A89C8;
+  border: 2px solid #EE5219;
+  /* padding:5px; */
+  color:#EE5219;
+  /* starting here is the fixed button */
+  border-radius: 3rem;
+  padding: 20px;
+  position: fixed;
+  bottom: 10%;
+  right: 4%;
+  width: 6rem;
+  padding: 1rem;
+  min-height: 3rem;
 }
 
 .services a:hover{
-  border: 2px solid #B7C1EB;
-  background-color:#B7C1EB;
+  border: 2px solid #de6c43;
+  background-color:#de6c43;
   color:white;
 }
+
 
 .third-service p{
   padding-bottom:0;
@@ -343,13 +371,55 @@ textarea{
 }
 
 .contact-button{
-height:1.2rem;
-width:25%;
-text-align:center;
+  height: 2rem;
+  width: 65%;
+  background-color: #b7c1eb;
+  border: 1px solid #b7c1eb;
+  font-size: 15px;
+  color:white;
 }
 
+.contact-button:hover{
+  background-color:#cad1ef;
+  border:1px solid #cad1ef;
+}
 
+/* ABOUT PAGE */
 
+.cta-h2 h2{
+  margin:25px 0;
+}
+
+.highlight{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #cad1ef 52%);
+    line-height:32px;
+}
+
+.about-me{
+  padding:5rem 5rem 4rem
+}
+
+.about-me-text{
+  padding:2rem 1rem 2rem 4rem;
+}
+
+.about-me-images{
+  background-image:url("/images/california-coast.png");
+  background-position:center;
+  background-size:cover;
+  padding:5rem;
+}
+
+.subscription-box{
+  padding: 2rem 0;
+  margin: 4rem 13rem;
+  background-color: #7A89C8;
+  color: white;
+}
+
+.subscription-box h2{
+  margin-bottom:8px;
+}
 
 /* MEDIA QUERIES */
 
