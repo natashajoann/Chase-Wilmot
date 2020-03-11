@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 img{
   max-width: 100%;
   max-height:100%;
@@ -12,6 +16,10 @@ img{
 a{
   text-decoration: none;
   color:black;
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding:0;
 }
 
 /* FONTS */
@@ -97,19 +105,12 @@ nav{
 }
 
 .regular-menu a{
-  margin-top: 23%;
+  margin-top:4.5rem;
 }
 
 .regular-menu a:hover{
   color:#7A89C8;
   transition:0.35s;
-}
-
-.logo{
-  background-image:url("/images/CW_LOGO_MASTER_WIDE.jpeg");
-  background-position:center;
-  background-size:cover;
-  padding: 3rem;
 }
 
 /* Burger */
@@ -260,8 +261,8 @@ nav{
 }
 
 /* services page */
-.services, .schedule {
-  padding:2rem 5rem;
+.services {
+  padding:5rem 5rem 0;
 }
 
 .services-title{
@@ -292,15 +293,62 @@ nav{
 
 
 .services p{
-  padding:0rem 4rem 2rem;;
+  padding:0rem 4rem;
   width:80%;
   margin:auto;
-  margin-bottom:3rem;
+  margin-bottom:2rem;
+}
+
+.services div{
+  margin-bottom:5rem;
+}
+
+.services a{
+  border: 2px solid #7A89C8;
+  padding:5px;
+  color:#7A89C8;
+}
+
+.services a:hover{
+  border: 2px solid #B7C1EB;
+  background-color:#B7C1EB;
+  color:white;
 }
 
 .third-service p{
   padding-bottom:0;
 }
+
+/* SERVICES form */
+
+.schedule{
+  padding:2rem 0;
+  margin:2rem 10rem;
+  background-color:#7A89C8;
+  color:white;
+}
+.schedule h1{
+  font-size:30px;
+}
+
+input, textarea{
+width: 65%;
+padding: 5px;
+margin:5px 0;
+}
+
+textarea{
+  height:160px;
+  resize:none;
+}
+
+.contact-button{
+height:1.2rem;
+width:25%;
+text-align:center;
+}
+
+
 
 
 /* MEDIA QUERIES */
