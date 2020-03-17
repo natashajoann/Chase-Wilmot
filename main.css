@@ -149,12 +149,12 @@ nav{
   padding:3rem 5rem 3rem;
 }
 
-.title-img{
+/* .title-img{
   background-image:url("/images/chase-portrait.png");
   background-position:center;
   background-size:cover;
   padding:5rem;
-}
+} */
 
 .title-intro{
   padding: 3rem 0rem 2rem 4rem;    margin-bottom: 1rem;
@@ -174,7 +174,13 @@ nav{
   border: 2px solid white;
 }
 
-.big-quote{
+.fa-map-marker{
+  color:white;
+}
+
+
+
+/* .big-quote{
   text-align:right;
   color:white;
   border-right: 2px solid white;
@@ -185,7 +191,7 @@ nav{
 
 .big-quote h1{
   line-height: 1em;
-  font-size:60px;
+  font-size:60px; */
 }
 
 .services-text{
@@ -193,6 +199,11 @@ nav{
   padding: 3rem 5rem;
   padding-right: 3rem;
   padding-bottom:2rem;
+  border-right:1px solid white;
+}
+
+.border-none{
+  border:none;
 }
 
 /* TESTIMONIALS */
@@ -245,12 +256,12 @@ nav{
   padding:2rem 3rem 2rem 0;
 }
 
-.info-img{
+/* .info-img{
   background-image:url("/images/chase-portrait.png");
   background-position:center;
   background-size:cover;
   padding:5rem;
-}
+} */
 
 
 
