@@ -220,7 +220,7 @@ nav{
 }
 
 .services-button{
-  margin-top:3rem;
+  margin-top:2rem;
   color:white;
 }
 
@@ -576,7 +576,7 @@ white-space: normal;
 
 .burger-menu a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 33px;
   font-weight: 300;
   color: #7a7876;
   display:block;
@@ -587,5 +587,36 @@ white-space: normal;
 
 .burger-menu li{list-style:none}
 
+.title-intro{
+  padding: 4rem 2rem 0;
+}
+
+.title-img{
+  margin:auto;
+}
+
+.testimonials{
+  padding: 5rem 0 7rem 4rem;
+}
+
+.vl{
+  margin-bottom:3rem;
+}
+
+.vl-sml-none{
+  border-right:none;
+}
+
+.info-img{
+  order:-1;
+}
+
+.info-text{
+  padding: 2rem 3rem;
+}
+
+.subscription-box{
+  margin: 4rem 6rem;
+}
 
 }
