@@ -229,7 +229,11 @@ nav{
 .services-button a{
   border:2px solid white;
   color:white;
+}
 
+.services-button a:hover{
+  border: 2px solid #b06a71;
+  color: #b06a71;
 }
 
 .border-none{
