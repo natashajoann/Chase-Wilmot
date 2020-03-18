@@ -204,6 +204,10 @@ nav{
   border-right:1px solid white;
 }
 
+.services-text h2{
+  margin-bottom:10px;
+}
+
 .vl{
   border-right:2px solid white;
   padding:0 15px;
@@ -216,7 +220,11 @@ nav{
 .services-button{
   margin-top:3rem;
   color:white;
+}
+
+.services-button a{
   border:2px solid white;
+
 }
 
 .border-none{
