@@ -234,6 +234,7 @@ nav{
 .services-button a:hover{
   border: 2px solid #b06a71;
   color: #b06a71;
+  background-color:none;
 }
 
 .border-none{
