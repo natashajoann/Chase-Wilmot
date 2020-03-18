@@ -168,7 +168,7 @@ nav{
 
 .title-services{
   padding:4rem;
-  background-color:#904A50;
+  background-color:#671f26;
 }
 
 
@@ -222,7 +222,7 @@ nav{
 }
 
 .services-button{
-  margin-top:2rem;
+  margin-top:3rem;
   color:white;
 }
 
@@ -376,7 +376,7 @@ nav{
 .schedule{
   padding:2rem 0;
   margin:2rem 10rem;
-  background-color:#EAF4E9;
+  background-color:#d3e2d1;
 }
 .schedule h1{
   font-size:30px;
@@ -396,8 +396,8 @@ textarea{
 .contact-button{
   height: 2rem;
   width: 65%;
-  background-color:#BAD9B5;
-  border: 1px solid #BAD9B5;
+  background-color:#96b291;
+  border: 1px solid #96b291;
   font-size: 15px;
   color:white;
 }
@@ -435,7 +435,7 @@ textarea{
 
 .subscription-box{
   padding: 2rem 2rem;
-  margin: 4rem 13rem;
+  margin: 4rem 8rem;
   background-color: #BAD9B5;
 }
 
