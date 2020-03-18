@@ -157,7 +157,9 @@ nav{
 } */
 
 .title-intro{
-  padding: 3rem 0rem 2rem 4rem;    margin-bottom: 1rem;
+  padding: 0rem 0rem 0rem 4rem;
+  margin:auto;
+
 }
 
 
@@ -169,9 +171,9 @@ nav{
   background-color:#EE5219;
 }
 
-.services-text a{
+.services-text{
   color:white;
-  border: 2px solid white;
+  border-right: 2px solid white;
 }
 
 .fa-map-marker{
@@ -194,7 +196,7 @@ nav{
   font-size:60px; */
 }
 
-.services-text h2{
+.services-text{
   color:white;
   padding: 3rem 5rem;
   padding-right: 3rem;
@@ -254,6 +256,7 @@ nav{
 
 .info-text{
   padding:2rem 3rem 2rem 0;
+  margin:auto;
 }
 
 /* .info-img{
