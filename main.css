@@ -173,7 +173,6 @@ nav{
 
 .services-text{
   color:white;
-  border-right: 2px solid white;
 }
 
 .fa-map-marker{
@@ -205,8 +204,14 @@ nav{
 }
 
 .vl{
-  border-right:1px solid white;
+  border-right:2px solid white;
+  padding:0 3px;
+}
 
+.services-text a{
+  margin-top:3rem;
+  color:white;
+  border:2px solid white;
 }
 
 .border-none{
