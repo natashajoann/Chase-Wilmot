@@ -168,7 +168,7 @@ nav{
 
 .title-services{
   padding:4rem;
-  background-color:#671f26;
+  background-color:#904A50;
 }
 
 
@@ -372,7 +372,7 @@ nav{
 .schedule{
   padding:2rem 0;
   margin:2rem 10rem;
-  background-color:#BAD9B5;
+  background-color:#EAF4E9;
 }
 .schedule h1{
   font-size:30px;
@@ -392,8 +392,8 @@ textarea{
 .contact-button{
   height: 2rem;
   width: 65%;
-  background-color: #DEEFDB;
-  border: 1px solid #DEEFDB;
+  background-color:#BAD9B5;
+  border: 1px solid #BAD9B5;
   font-size: 15px;
   color:white;
 }
