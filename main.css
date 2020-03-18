@@ -168,7 +168,7 @@ nav{
 
 .title-services{
   padding:4rem;
-  background-color:#EFF7CF;
+  background-color:#671f26;
 }
 
 
@@ -176,6 +176,7 @@ nav{
   margin-bottom:10px;
   margin-bottom: 15px;
   font-size: 25px;
+  color:white;
 }
 
 
@@ -199,15 +200,16 @@ nav{
   padding: 3rem 5rem;
   padding-right: 3rem;
   padding-bottom:2rem;
-  border-right:1px solid black;
+  border-right:1px solid white;
 }
 
 .services-text h2{
   margin-bottom:10px;
+  color:white;
 }
 
 .vl{
-  border-right:2px solid black;
+  border-right:2px solid white;
   padding:0 15px;
 }
 
@@ -221,8 +223,8 @@ nav{
 }
 
 .services-button a{
-  border:2px solid black;
-  color:black;
+  border:2px solid white;
+  color:white;
 
 }
 
@@ -248,7 +250,6 @@ nav{
   height: 66vh;
   padding: 8rem 0rem 10rem 8rem;
   background-color:#FAFCE8;
-  color:white;
 }
 
 .testimonials p{
@@ -409,7 +410,7 @@ textarea{
 }
 
 .highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #EF798A 52%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #f4e2e4 52%);
     line-height:32px;
 }
 
@@ -429,12 +430,14 @@ textarea{
 }
 
 .subscription-box{
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   margin: 4rem 13rem;
   background-color: #BAD9B5;
 }
 
 .subscription-box h2{
+  width: 80%;
+  margin: auto;
   margin-bottom:8px;
 }
 
