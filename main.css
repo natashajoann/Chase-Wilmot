@@ -67,20 +67,20 @@ h4, p, h5 {
 }
 
 .primary-button:hover{
-  border: 2px solid #B7C1EB;
-  background-color:#B7C1EB;
+  border: 2px solid #BAD9B5;
+  background-color:#BAD9B5;
   color:white;
 }
 
 .secondary-button{
-  border: 2px solid #7A89C8;
-  background-color:#7A89C8;
+  border: 2px solid #96B291;
+  background-color:#96B291;
   padding:10px;
 }
 
 .secondary-button:hover{
-  border: 2px solid #B7C1EB;
-  background-color:#B7C1EB;
+  border: 2px solid #BAD9B5;
+  background-color:#BAD9B5;
   color:white;
 }
 
@@ -109,7 +109,7 @@ nav{
 }
 
 .regular-menu a:hover{
-  color:#7A89C8;
+  color:#BAD9B5;
   transition:0.35s;
 }
 
@@ -168,15 +168,11 @@ nav{
 
 .title-services{
   padding:4rem;
-  background-color:#EE5219;
+  background-color:#EFF7CF;
 }
 
-.services-text{
-  color:white;
-}
 
 .fa-map-marker{
-  color:white;
   margin-bottom:10px;
   margin-bottom: 15px;
   font-size: 25px;
@@ -203,7 +199,7 @@ nav{
   padding: 3rem 5rem;
   padding-right: 3rem;
   padding-bottom:2rem;
-  border-right:1px solid white;
+  border-right:1px solid black;
 }
 
 .services-text h2{
@@ -211,7 +207,7 @@ nav{
 }
 
 .vl{
-  border-right:2px solid white;
+  border-right:2px solid black;
   padding:0 15px;
 }
 
@@ -225,8 +221,8 @@ nav{
 }
 
 .services-button a{
-  border:2px solid white;
-  color:white;
+  border:2px solid black;
+  color:black;
 
 }
 
@@ -251,7 +247,7 @@ nav{
 .testimonials{
   height: 66vh;
   padding: 8rem 0rem 10rem 8rem;
-  background-color:#E7AEE3;
+  background-color:#FAFCE8;
   color:white;
 }
 
@@ -296,10 +292,6 @@ nav{
 
 /* Footer */
 
-.IG-info{
-  background-color:#EFEDE1;
-  padding:2rem;
-}
 
 .footer-menu{
   width: 80%;
@@ -320,7 +312,7 @@ nav{
 
 
 .footer-menu a:hover{
-  color:#7A89C8;
+  color:#BAD9B5;
 }
 
 /* services page */
@@ -367,26 +359,7 @@ nav{
   margin-bottom:5rem;
 }
 
-.services a{
-  border: 2px solid #EE5219;
-  /* padding:5px; */
-  color:#EE5219;
-  /* starting here is the fixed button */
-  border-radius: 3rem;
-  padding: 20px;
-  position: fixed;
-  bottom: 10%;
-  right: 4%;
-  width: 6rem;
-  padding: 1rem;
-  min-height: 3rem;
-}
 
-.services a:hover{
-  border: 2px solid #de6c43;
-  background-color:#de6c43;
-  color:white;
-}
 
 
 .third-service p{
@@ -398,8 +371,7 @@ nav{
 .schedule{
   padding:2rem 0;
   margin:2rem 10rem;
-  background-color:#7A89C8;
-  color:white;
+  background-color:#BAD9B5;
 }
 .schedule h1{
   font-size:30px;
@@ -419,15 +391,15 @@ textarea{
 .contact-button{
   height: 2rem;
   width: 65%;
-  background-color: #b7c1eb;
-  border: 1px solid #b7c1eb;
+  background-color: #DEEFDB;
+  border: 1px solid #DEEFDB;
   font-size: 15px;
   color:white;
 }
 
 .contact-button:hover{
-  background-color:#cad1ef;
-  border:1px solid #cad1ef;
+  background-color:#ECFAEA;
+  border:1px solid #ECFAEA;
 }
 
 /* ABOUT PAGE */
@@ -437,7 +409,7 @@ textarea{
 }
 
 .highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #cad1ef 52%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #EF798A 52%);
     line-height:32px;
 }
 
@@ -459,8 +431,7 @@ textarea{
 .subscription-box{
   padding: 2rem 0;
   margin: 4rem 13rem;
-  background-color: #7A89C8;
-  color: white;
+  background-color: #BAD9B5;
 }
 
 .subscription-box h2{
@@ -518,15 +489,15 @@ white-space: normal;
 
   .burger-button span{
     width:30px;
-    border: 2px solid #e3b053;
-    background-color:#e3b053;
+    border: 2px solid #671F26;
+    background-color:#671F26;
     display: block;
     border-radius:22px;
     transition: 1s;
   }
 
   .burger-button.active span{
-    background-color:#e3b053;
+    background-color:#671F26;
   }
 
   .burger-top, .burger-bottom{
