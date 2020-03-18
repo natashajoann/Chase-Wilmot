@@ -204,6 +204,11 @@ nav{
   border-right:1px solid white;
 }
 
+.vl{
+  border-right:1px solid white;
+
+}
+
 .border-none{
   border:none;
 }
@@ -280,6 +285,11 @@ nav{
   margin: auto;
   margin-top: 10px;
   margin-bottom:12px;
+}
+
+.footer img{
+  width:13%;
+  margin-bottom:5px;
 }
 
 .copyrights h5{
