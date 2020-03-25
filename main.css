@@ -22,6 +22,10 @@ a{
   padding:0;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin:0;
+}
+
 /* FONTS */
 
 :-webkit-any(article,aside,nav,section) h1{
@@ -54,7 +58,7 @@ h4, p, h5 {
 
 .full-highlight{
     background-color:#B8D4D1;
-    line-height:32px;
+    line-height:55px;
 }
 
 /* Helper Classes */
@@ -72,20 +76,20 @@ h4, p, h5 {
 }
 
 .primary-button:hover{
-  border: 2px solid #BAD9B5;
-  background-color:#BAD9B5;
+  border: 2px solid #ABDED4;
+  background-color:#ABDED4;
   color:white;
 }
 
 .secondary-button{
-  border: 2px solid #96B291;
-  background-color:#96B291;
+  border: 2px solid #ABDED4;
+  background-color:#ABDED4;
   padding:10px;
 }
 
 .secondary-button:hover{
-  border: 2px solid #BAD9B5;
-  background-color:#BAD9B5;
+  border: 2px solid #59C9B1;
+  background-color:#59C9B1;
   color:white;
 }
 
@@ -131,8 +135,8 @@ nav{
 
 
 .title{
-  padding:3rem 5rem 3rem;
-}
+    padding: 0rem 3rem 0rem 4rem;
+  }
 
 /* .title-img{
   background-image:url("/images/chase-portrait.png");
@@ -142,9 +146,9 @@ nav{
 } */
 
 .title-intro{
-  padding: 0rem 0rem 0rem 4rem;
-  margin:auto;
-
+  margin: auto;
+  text-align: left;
+  margin-left: -43px;
 }
 
 
@@ -185,17 +189,18 @@ nav{
 
 .services-button{
   margin-top:3rem;
-  color:white;
+  color:black;
 }
 
 .services-button a{
-  border:2px solid white;
-  color:white;
+  border:2px solid black;
+  color:black;
 }
 
 .services-button a:hover{
-  border: 2px solid black;
+  border: 2px solid #ABDED4;
   background-color:none;
+  color:#ABDED4;
 }
 
 .border-none{
@@ -386,7 +391,7 @@ textarea{
 
 .highlight{
     background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #B8D4D1 52%);
-    line-height:32px;
+    line-height:43px;
 }
 
 .about-me{
