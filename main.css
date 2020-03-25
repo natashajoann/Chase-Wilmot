@@ -53,7 +53,7 @@ h4, p, h5 {
 }
 
 .full-highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #B8D4D1 52%);
+    background-color:#B8D4D1;
     line-height:32px;
 }
 
