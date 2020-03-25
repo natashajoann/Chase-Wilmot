@@ -222,7 +222,7 @@ nav{
 }
 
 .testimonials{
-  height: 68vh;
+  height: 70vh;
   padding: 8rem 0rem 10rem 8rem;
   background-color:#EF6B48;
   color:white;
@@ -545,6 +545,10 @@ white-space: normal;
 
 .title-img{
   margin:auto;
+}
+
+.title{
+  background: linear-gradient(white 17%,#E5E5F9 0%, #E5E5F9 60%, #E5E5F9 80%, white 25%);
 }
 
 .testimonials{
