@@ -168,8 +168,7 @@ nav{
 }
 
 .services-text{
-  padding: 3rem 5rem;
-  padding-right: 3rem;
+  padding: 3rem 3rem;
   padding-bottom:2rem;
 }
 
@@ -200,7 +199,7 @@ nav{
 .services-button a:hover{
   border: 2px solid #ABDED4;
   background-color:none;
-  color:#ABDED4;
+  color:white;
 }
 
 .border-none{
