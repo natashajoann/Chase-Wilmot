@@ -270,13 +270,16 @@ nav{
 
 /* Footer */
 
+footer{
+  background-color:#ECF1EB;
+}
+
 
 .footer-menu{
   width: 80%;
   margin: auto;
   margin-top: 10px;
   margin-bottom:12px;
-  background-color:#ECF1EB;
 }
 
 .footer img{
@@ -388,7 +391,7 @@ textarea{
 }
 
 .highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #B8D4D1 52%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #B8D4D1 50%);
     line-height:43px;
 }
 
