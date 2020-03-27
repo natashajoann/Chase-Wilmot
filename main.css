@@ -425,7 +425,7 @@ textarea{
   background-image:url("/images/california-coast.png");
   background-position:center;
   background-size:cover;
-  padding:5rem;
+  padding:10rem;
 }
 
 /* .subscription-box{
@@ -499,7 +499,7 @@ white-space: normal;
     display:none;
   }
 
-  .nav{
+  nav{
     padding-left:1rem;
   }
 
