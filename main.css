@@ -645,10 +645,16 @@ padding:0 2rem;
 
 .info-img{
   order:-1;
+  text-align:center;
 }
 
 .info-text{
   padding: 2rem 0rem;
+}
+
+.info-text h2, .info-text p{
+  width:80%;
+  margin:auto;
 }
 
 .subscription-box{
