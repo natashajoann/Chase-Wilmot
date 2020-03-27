@@ -229,7 +229,7 @@ nav{
 }
 
 .testimonials{
-  height: 70vh;
+  /* height: 70vh; */
   padding: 8rem 0rem 10rem 8rem;
   background-color:#EF6B48;
   color:white;
@@ -252,6 +252,10 @@ nav{
 
 .mySlides p{
   text-align:center;
+}
+
+.mySlides{
+  height:50vh;
 }
 
 
