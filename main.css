@@ -581,7 +581,7 @@ white-space: normal;
 }
 
 .title-services{
-  padding:1rem;
+  padding:2rem;
   background:linear-gradient(to bottom, #E5E5F9 3%, white 3%);
 }
 
@@ -602,7 +602,7 @@ padding:0 2rem;
 
 
 .testimonials{
-  padding: 5rem 0 15rem 3rem;
+  padding:5rem 0 0rem 5rem;
 }
 
 .mySlides{
@@ -620,6 +620,9 @@ padding:0 2rem;
   margin:3rem 0;
 }
 
+.info{
+  padding:4rem 3rem 0;
+}
 
 .info-img{
   order:-1;
@@ -661,5 +664,10 @@ margin-bottom: 0rem;
     text-align: center;
 }
 
+}
 
+@media (max-width: 576px){
+
+.testimonials{
+padding: 5rem 0 15rem 3rem;
 }
