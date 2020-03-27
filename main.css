@@ -142,16 +142,16 @@ nav{
 
 .title-img{
   position:relative;
-  padding:5rem;
+  padding:1rem 5rem;
 }
 
 .title-intro{
-  position:absolute;
-  top:10%;
+  position: absolute;
+  bottom: 0;
   margin: auto;
   text-align: left;
-  left:90%;
-  width:80%;
+  right: 14%;
+  width: 80%;
 }
 
 .blue-banner{
