@@ -151,6 +151,10 @@ nav{
   margin-left: -43px;
 }
 
+.blue-banner{
+  background: linear-gradient(180deg,rgba(255,255,255,0) 0%, #B8D4D1 25%, #B8D4D1 75%,rgba(255,255,255,0) 0% );
+}
+
 
 /* SERVICES on HOME */
 
