@@ -58,7 +58,7 @@ h4, p, h5 {
 
 .full-highlight{
     background-color:white;
-    line-height:75px;
+    line-height:44px;
 }
 
 /* Helper Classes */
@@ -140,21 +140,21 @@ nav{
     padding: 0rem 3rem 0rem 4rem;
   }
 
-/* .title-img{
-  background-image:url("/images/chase-portrait.png");
-  background-position:center;
-  background-size:cover;
+.title-img{
+  position:relative;
   padding:5rem;
-} */
+}
 
 .title-intro{
+  position:absolute;
+  right:-15%;
   margin: auto;
   text-align: left;
   margin-left: -43px;
 }
 
 .blue-banner{
-  background: linear-gradient(180deg,rgba(255,255,255,0) 22% ,#E5E5F9 15%, #E5E5F9 89%,rgba(255,255,255,0) 0);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 16% ,#E5E5F9 15%, #E5E5F9 89%,rgba(255,255,255,0) 0);
 }
 
 
