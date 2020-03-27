@@ -584,7 +584,7 @@ white-space: normal;
 }
 
 .title-intro h1{
-  margin-left:6%;
+  /* margin-left:6%; */
 width: 88%;
 }
 
@@ -698,7 +698,7 @@ padding: 5rem 0 15rem 3rem;
 } */
 
 .title-intro h1{
-  margin-left:40px;
+  /* margin-left:40px; */
   width:100%;
 }
 
