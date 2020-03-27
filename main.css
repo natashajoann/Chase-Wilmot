@@ -302,6 +302,9 @@ footer{
   line-height:0px;
 }
 
+.footer-menu a{
+  margin:auto;
+}
 
 .footer-menu a:hover{
   color:#873340;
