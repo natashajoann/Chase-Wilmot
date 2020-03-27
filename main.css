@@ -147,10 +147,10 @@ nav{
 
 .title-intro{
   position: absolute;
-  bottom: 0;
+  bottom: 34%;
   margin: auto;
   text-align: left;
-  right: 14%;
+  right: 13%;
   width: 80%;
 }
 
@@ -362,9 +362,9 @@ footer{
 /* SERVICES form */
 
 .schedule{
-  padding: 2rem 0;
+  padding: 2rem;
   background-color: #D8D8F6;
-  width: 43%;
+  width: 50%;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -439,6 +439,24 @@ textarea{
 }
 
 /* MEDIA QUERIES */
+
+@media (max-width:1024px){
+
+.title-intro{
+  bottom: 34%;
+  margin: auto;
+  right: 6%;
+}
+
+}
+
+@media (max-width: 900px){
+  .title-intro{
+    bottom:34%;
+    margin:auto;
+    right:0%;
+  }
+}
 
 @media (max-width: 768px){
 .display-none{
@@ -567,9 +585,11 @@ white-space: normal;
 }
 
 .title-intro h1{
-  margin-left:40px;
-  width:100%;
+  margin-left:6%;
+width: 88%;
 }
+
+
 
 .title{
   padding:0 2rem;
@@ -670,4 +690,12 @@ margin-bottom: 0rem;
 
 .testimonials{
 padding: 5rem 0 15rem 3rem;
+}
+
+.title-intro h1{
+  margin-left:40px;
+  width:100%;
+}
+
+
 }
