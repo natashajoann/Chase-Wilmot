@@ -121,7 +121,6 @@ nav{
 .regular-menu a:hover{
   color:#873340;
   transition:0.35s;
-  border-bottom:2px solid #873340;
 }
 
 /* Burger */
@@ -688,9 +687,9 @@ margin-bottom: 0rem;
 
 @media (max-width: 576px){
 
-.testimonials{
+/* .testimonials{
 padding: 5rem 0 15rem 3rem;
-}
+} */
 
 .title-intro h1{
   margin-left:40px;
