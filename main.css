@@ -479,6 +479,10 @@ white-space: normal;
     display:none;
   }
 
+  .nav{
+    padding-left:1rem;
+  }
+
   .burger-button{
     position:fixed;
     top:4vh;
@@ -559,36 +563,95 @@ white-space: normal;
 .burger-menu li{list-style:none}
 
 .title-intro{
-  padding: 4rem 2rem 0;
+  padding: 0;
 }
 
 .title-img{
   margin:auto;
+  padding:1rem;
+}
+
+.title-services{
+  padding:1rem;
+  background:linear-gradient(to bottom, #E5E5F9 3%, white 3%);
+}
+
+.title-intro{
+  position: relative;
+/* bottom: 0; */
+margin: auto;
+text-align: center;
+/* right: 14%; */
+width: 100%;
+padding:0 2rem;
+}
+
+.blue-banner{
+  background:linear-gradient(white 17%,#e5e5f9 0,#e5e5f9 60%,#e5e5f9 100%);
+  margin-bottom:-2px;
 }
 
 
 .testimonials{
-  padding: 5rem 0 7rem 4rem;
+  padding: 5rem 0 15rem 3rem;
+}
+
+.mySlides{
+  height:65vh;
 }
 
 .vl{
-  margin-bottom:3rem;
+  border-right:none;
+  border-bottom:2px solid black;
+  padding: 10px 0;
+  margin:0px 10px;
+
 }
 
-.vl-sml-none{
-  border-right:none;
+.services-button{
+  margin:3rem 0;
 }
+
 
 .info-img{
   order:-1;
 }
 
 .info-text{
-  padding: 2rem 3rem;
+  padding: 2rem 0rem;
 }
 
 .subscription-box{
-  margin: 4rem 6rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  padding: 2rem;
 }
+
+.services{
+  padding:3rem 3rem;
+}
+
+.services div{
+  margin-bottom:3rem;
+}
+
+.services p{
+  padding: 0 0rem;
+width: 100%;
+margin: auto;
+margin-bottom: 0rem;
+}
+
+.about-me{
+  padding: 2rem 0 0;
+}
+
+.about-me-text{
+  padding: 3rem;
+    text-align: center;
+}
+
 
 }
