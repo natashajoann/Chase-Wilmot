@@ -45,7 +45,7 @@ url("/css/fonts/Audrey-Normal.otf") format("otf");
 }
 
 :-webkit-any(article,aside,nav,section) h1{
-  font-size:35px;
+  font-size:25px;
 }
 
 p{
@@ -75,7 +75,7 @@ h4, p, h5 {
 
 .full-highlight{
     background-color:white;
-    line-height:44px;
+    line-height:34px;
 }
 
 /* Helper Classes */
@@ -168,11 +168,10 @@ nav a{
 
 .title-intro{
   position: absolute;
-  bottom: 34%;
+  bottom: 39%;
   margin: auto;
   text-align: left;
   right: 13%;
-  width: 80%;
 }
 
 .blue-banner{
@@ -441,7 +440,7 @@ textarea{
 
 .about-me-text{
   padding:2rem 1rem 2rem 4rem;
-  font-weight:bold; 
+  font-weight:bold;
 }
 
 .about-me-images{
@@ -465,7 +464,7 @@ textarea{
 
 /* MEDIA QUERIES */
 
-@media (max-width:1024px){
+@media (max-width:1160px){
 
 .title-intro{
   bottom: 34%;
