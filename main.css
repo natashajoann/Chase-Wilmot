@@ -35,6 +35,15 @@ src:
 url("/css/fonts/Audrey-Normal.otf") format("otf");
 }
 
+@font-face {
+    font-family: 'audreynormal';
+    src: url('/css/fonts/audrey-normal-webfont.woff2') format('woff2'),
+         url('/css/fonts/audrey-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :-webkit-any(article,aside,nav,section) h1{
   font-size:35px;
 }
