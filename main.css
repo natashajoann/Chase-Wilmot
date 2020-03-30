@@ -170,12 +170,17 @@ nav a{
   padding:1rem 5rem;
 }
 
+.logo img{
+  width: 76%;
+  margin-top: 15px;
+}
+
 .title-intro{
   position: absolute;
-  bottom: 39%;
-  margin: auto;
-  text-align: left;
-  right: 13%;
+      bottom: 4%;
+      margin: auto;
+      text-align: left;
+      right: 15%;
 }
 
 .blue-banner{
@@ -492,7 +497,7 @@ margin: auto;
 @media (max-width:1160px){
 
 .title-intro{
-  bottom: 34%;
+  bottom: 0%;
   margin: auto;
   right: 6%;
 }
@@ -501,10 +506,14 @@ margin: auto;
 
 @media (max-width: 900px){
   .title-intro{
-    bottom:34%;
-    margin:auto;
-    right:0%;
+    bottom: -9%;
+    margin: auto;
+    right: 2%;
   }
+.title-img{
+  position: relative;
+padding: 1rem 3rem;
+}
 }
 
 @media (max-width: 768px){
@@ -633,6 +642,9 @@ white-space: normal;
   padding: 0;
 }
 
+.title-img{
+  padding: 1rem 0rem;
+}
 
 
 
@@ -646,8 +658,8 @@ white-space: normal;
 }
 
 .title-services{
-  padding:2rem;
-  background:linear-gradient(to bottom, #E5E5F9 3%, white 3%);
+  padding: 2rem 2rem 0;
+  background: linear-gradient(to bottom,#e5e5f9 1%,#fff 1%);
 }
 
 .title-intro{
@@ -698,11 +710,11 @@ padding:0 2rem;
 }
 
 .subscription-box{
-  width: 100%;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 0rem;
-  padding: 2rem;
+  width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .services{
@@ -729,6 +741,10 @@ margin-bottom: 0rem;
     text-align: center;
 }
 
+.about-me-text-extra{
+  padding:0rem 5rem 3rem;
+}
+
 }
 
 @media (max-width: 576px){
@@ -747,6 +763,14 @@ padding: 5rem 0 15rem 3rem;
 .title-intro h1{
   /* margin-left:40px; */
   width:100%;
+}
+
+.subscription-box{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  padding: 2rem;
 }
 
 
