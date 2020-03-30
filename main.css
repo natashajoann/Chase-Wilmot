@@ -521,12 +521,12 @@ white-space: normal;
   }
 
   nav{
-    padding-left:1rem;
+    padding:1rem;
   }
 
   .burger-button{
     position:fixed;
-    top:4vh;
+    top:3vh;
     right:0vh;
     z-index:9;
     padding:8px;
