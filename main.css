@@ -57,7 +57,7 @@ h1{
 }
 
 h2, h3, a {
-  font-family:'audrey'
+  font-family:'audrey';
   /* font-family: brandon-grotesque, sans-serif; */
   font-weight:500;
   line-height: 28px;
@@ -440,6 +440,9 @@ textarea{
 
 .about-me-text{
   padding:2rem 1rem 2rem 4rem;
+}
+
+.about-me-text h2{
   font-size: 20px;
   line-height: 22px;
 }
