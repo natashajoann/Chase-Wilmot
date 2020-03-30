@@ -63,6 +63,10 @@ h2, h3, a {
   line-height: 28px;
 }
 
+h3{
+  font-size:25px;
+}
+
 h2{
   font-size:30px;
 }
@@ -70,7 +74,7 @@ h2{
 h4, p, h5 {
   font-family: brandon-grotesque, sans-serif;
   font-weight:300;
-  font-size:17px;
+  font-size:20px;
 }
 
 .full-highlight{
@@ -314,13 +318,13 @@ footer{
 }
 
 .footer img{
-  width:13%;
+  width:16%;
   margin-bottom:5px;
 }
 
 .copyrights h5{
   font-size:12px;
-  line-height:0px;
+  line-height:15px;
 }
 
 .footer-menu a{
@@ -434,17 +438,34 @@ textarea{
     line-height:43px;
 }
 
+.highlight-2{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #B8D4D1 50%);
+    line-height:24px;
+}
+
 .about-me{
-  padding:5rem 5rem 4rem
+  padding:5rem 3rem 4rem;
 }
 
 .about-me-text{
-  padding:2rem 1rem 2rem 4rem;
+  padding:2rem 1rem 2rem 2rem;
+}
+
+.about-me-text-extra{
+  padding:3rem 5rem 0;
+}
+
+.about-me-text-extra h2{
+  margin-bottom:15px;
+}
+
+.about-me-text-extra p{
+  width: 85%;
+margin: auto;
 }
 
 .about-me-text h2{
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 25px;
 }
 
 .about-me-images{
