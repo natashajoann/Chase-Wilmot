@@ -441,6 +441,7 @@ textarea{
 
 .about-me-text{
   padding:2rem 1rem 2rem 4rem;
+  font-weight:bold; 
 }
 
 .about-me-images{
