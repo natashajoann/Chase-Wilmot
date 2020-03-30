@@ -674,12 +674,6 @@ padding:0 2rem;
   height:65vh;
 }
 
-.vl{
-  border-right:none;
-  border-bottom:2px solid black;
-  padding: 10px 0;
-
-}
 
 .services-button{
   margin:3rem 0;
@@ -738,6 +732,13 @@ margin-bottom: 0rem;
 }
 
 @media (max-width: 576px){
+
+  .vl{
+    border-right:none;
+    border-bottom:2px solid black;
+    padding: 10px 0;
+
+  }
 
 .testimonials{
 padding: 5rem 0 15rem 3rem;
