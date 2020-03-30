@@ -118,6 +118,7 @@ nav{
 
 nav a{
   font-family:'audrey';
+  text-transform: capitalize;
 }
 
 .mobile-menu{
