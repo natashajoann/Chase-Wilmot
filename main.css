@@ -177,10 +177,10 @@ nav a{
 
 .title-intro{
   position: absolute;
-      bottom: 4%;
+      bottom: -8%;
       margin: auto;
       text-align: left;
-      right: 15%;
+      right: 12%;
 }
 
 .blue-banner{
@@ -497,16 +497,16 @@ margin: auto;
 @media (max-width:1160px){
 
 .title-intro{
-  bottom: 0%;
+  bottom: -13%;
   margin: auto;
-  right: 6%;
+  right: 1%;
 }
 
 }
 
 @media (max-width: 900px){
   .title-intro{
-    bottom: -9%;
+    bottom: -13%;
     margin: auto;
     right: 2%;
   }
