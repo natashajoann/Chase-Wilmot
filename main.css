@@ -28,15 +28,6 @@ a{
 
 /* FONTS */
 
-@font-face {
-    font-family: 'audreyregular';
-    src: url('audrey-normal-webfont.woff2') format('woff2'),
-         url('audrey-normal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face{
   src:url("/fonts/Audrey-Normal.otf");
   font-family: audrey;
