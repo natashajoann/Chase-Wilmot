@@ -37,6 +37,11 @@ a{
 
 }
 
+@font-face{
+  src:url("/fonts/Audrey-Normal.otf");
+  font-family: audrey;
+}
+
 :-webkit-any(article,aside,nav,section) h1{
   font-size:25px;
 }
@@ -50,7 +55,7 @@ h1{
 }
 
 h2, h3, a {
-  font-family: 'audreyregular';
+  font-family: 'audrey';
   font-weight:500;
   line-height: 28px;
 }
