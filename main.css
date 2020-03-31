@@ -523,6 +523,12 @@ padding: 1rem 3rem;
 }
 
 @media (max-width: 768px){
+
+  .footer-menu a{
+    margin:auto;
+    font-size: 10px;
+  }
+
 .display-none{
   display:none;
 }
