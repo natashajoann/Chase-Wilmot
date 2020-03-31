@@ -181,7 +181,7 @@ nav a{
       bottom: 27%;
       margin: auto;
       text-align: left;
-      right: 12%;
+      right: 9%;
 }
 
 .blue-banner{
@@ -500,8 +500,17 @@ margin: auto;
 .title-intro{
   bottom: 27%;
   margin: auto;
-  right: 1%;
+  right: 4%;
 }
+
+}
+
+@media (max-width: 1024px){
+  .title-intro{
+    bottom: 27%;
+    margin: auto;
+    right: 4%;
+  }
 
 }
 
