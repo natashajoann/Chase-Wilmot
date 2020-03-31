@@ -332,9 +332,11 @@ footer{
   position:relative;
 }
 
-.second-service h4{
+.second-service h3{
   font-weight:bold;
+  font-size:20px;
 }
+
 
 .services-title{
   margin-bottom:2rem;
