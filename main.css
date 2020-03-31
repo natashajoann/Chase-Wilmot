@@ -660,7 +660,7 @@ white-space: normal;
 
 .title-services{
   padding: 2rem 2rem 0;
-  background: linear-gradient(to bottom,#e5e5f9 1%,#fff 1%);
+  background: linear-gradient(to bottom,#e5e5f9 2%,#fff %);
 }
 
 .title-intro{
@@ -734,7 +734,7 @@ margin-bottom: 0rem;
 }
 
 .about-me{
-  padding: 2rem 0 0;
+  padding:0;
 }
 
 .about-me-text{
