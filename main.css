@@ -44,7 +44,7 @@ url("/css/fonts/Audrey-Normal.otf") format("otf");
 
 }
 
-@font-face { font-family: audrey; src: url('audrey-normal-webfont.woff2'); } 
+@font-face { font-family: audrey; src: url('audrey-normal-webfont.woff2'); }
 
 :-webkit-any(article,aside,nav,section) h1{
   font-size:25px;
@@ -134,7 +134,6 @@ nav{
 
 nav a{
   font-family:'audrey';
-  text-transform: capitalize;
 }
 
 .mobile-menu{
