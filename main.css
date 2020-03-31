@@ -29,22 +29,13 @@ a{
 /* FONTS */
 
 @font-face {
-font-family: "audreynormal";
-src: url("/css/fonts/Audrey-Normal.otf");
-src:
-url("/css/fonts/Audrey-Normal.otf") format("otf");
-}
-
-@font-face {
-    font-family: 'audreynormal';
-    src: url('/css/fonts/audrey-normal-webfont.woff2') format('woff2'),
-         url('/css/fonts/audrey-normal-webfont.woff') format('woff');
+    font-family: 'audreyregular';
+    src: url('audrey-normal-webfont.woff2') format('woff2'),
+         url('audrey-normal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
-@font-face { font-family: audrey; src: url('audrey-normal-webfont.woff2'); }
 
 :-webkit-any(article,aside,nav,section) h1{
   font-size:25px;
@@ -60,7 +51,6 @@ h1{
 
 h2, h3, a {
   font-family: 'audreyregular';
-  /* font-family: brandon-grotesque, sans-serif; */
   font-weight:500;
   line-height: 28px;
 }
