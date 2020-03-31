@@ -309,13 +309,13 @@ footer{
 }
 
 .footer img{
-  width:16%;
   margin-bottom:5px;
 }
 
 .copyrights h5{
   font-size:12px;
   line-height:15px;
+  width: 94%;
 }
 
 .footer-menu a{
