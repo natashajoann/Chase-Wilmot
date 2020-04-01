@@ -33,6 +33,11 @@ a{
   font-family: audrey;
 }
 
+@font-face{
+  src:url("/fonts/BOSQUE.otf");
+  font-family:bosque;
+}
+
 :-webkit-any(article,aside,nav,section) h1{
   font-size:25px;
 }
@@ -239,7 +244,7 @@ nav{
   width: 90%;
   font-size: 126px;
   line-height: 0px;
-  font-family: 'Macondo', cursive;
+  font-family: bosque;
   color:white;
 }
 
@@ -316,6 +321,10 @@ footer{
   font-size:12px;
   line-height:15px;
   width: 94%;
+}
+
+.copyrights a:hover{
+  color:#e5bc5c;
 }
 
 .footer-menu a{
