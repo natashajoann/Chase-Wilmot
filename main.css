@@ -472,10 +472,12 @@ margin: auto;
   font-size: 25px;
 }
 
-.about-me-images img{
-  width:80%;
-  margin:auto;
-}
+/* .about-me-images{
+  background-image:url("/images/chase_july2019069.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:7rem;
+} */
 
 /* .subscription-box{
   padding: 2rem 2rem;

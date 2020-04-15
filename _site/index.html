@@ -6,12 +6,14 @@
 <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/sdl4tiz.css">
 <link href="https://fonts.googleapis.com/css?family=Macondo&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <!-- animate css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <!-- GRIDLEX -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 <!-- Favicon -->
-<link rel="shortcut icon" type"imgage/jng" href="/images/favicon.jng"
+<link rel="shortcut icon" type"imgage/jng" href="/images/favicon.png">
 <!-- TAGS -->
   <title> Chase Wilmot </title>
     <meta property="og:title" content="Chase Wilmot"/>
@@ -20,24 +22,26 @@
     <meta property="og:site_name" content="https://chasewilmot.com"/>
     <meta property="og:description"
           content="HERE WE WILL ADD A DESCRIPTION"/>
+  <!-- Font Stylesheet -->
+    <link href="/stylesheet.css" rel="stylesheet">
   <!-- my css file -->
   <link href="/main.css" rel="stylesheet">
 </head>
 <body>
 
   <nav class="naviagtion grid">
-    <div class="col-4 logo">
-      <a href="/">
-      <img src="/images/CW_LOGO_MASTER_WIDE.jpeg">
+
+      <a href="/index" class="col-4_sm-6 logo">
+      <img src="/images/cw-logo-name.png">
       </a>
-    </div>
 
-    <div class="col-2"></div>
+    <div class="col-3_md-2"></div>
 
-    <div class="col-6 regular-menu display-none space-around">
-      <a href="/"> Home </a>
-      <a href="/services"> Services </a>
-      <a href="/about"> About </a>
+    <div class="col-5_md-6 regular-menu display-none space-around">
+      <a href="/index"> HOME </a>
+      <a href="/about"> ABOUT </a>
+      <a href="/programs"> PROGRAMS </a>
+      <a href="/contact"> CONTACT </a>
     </div>
 
   </nav>
@@ -50,41 +54,49 @@
         <span class="burger-bottom"></span>
     </div>
     <div class="burger-menu">
-      <a href="/">Home</a>
-      <a href="/web-dev">Services</a>
-      <a href="/media">About</a>
-      <a href="/media">Contact</a>
+      <a href="/index"> HOME </a>
+      <a href="/about"> ABOUT </a>
+      <a href="/programs"> PROGRAMS </a>
+      <a href="/contact"> CONTACT </a>
     </div>
 </nav>
 
-  <section class="grid title">
-  <div class="col-6_sm-12 title-img editable">
-  </div>
+  <section class="grid title blue-banner">
+      <img src="/images/chase-portrait.png" class="title-img editable">
 
-  <div class="col-6_sm-12 title-intro editable centered">
-    <h2>Are you ready to learn how to become your own <span class="highlight">best friend and nº1 supporter?</span></h2>
-    <br>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <br>
-    <p><span class="italic"> Ready to take control of your life?</span></p>
-    <a href="/services" class="primary-button"> Book a Consult </a>
+
+        <div class="col-5_sm-12 title-intro editable centered">
+          <h1><span class="full-highlight">“The quality of light by which we scrutinize our lives has direct bearing upon the product which we live, and upon the changes which we hope to bring about through those lives.” <br><br>Audre Lorde</span></h1>
+        </div>
   </div>
 </section>
 
 
 <section class="title-services grid editable">
-  <div class="col-5_sm-12 big-quote">
-    <h1 class="animated fadeInUp">
-      Women's <br> Health <br> and Lifestyle<br> Coaching
-    </h1>
+  <div class="col-4_xs-12 vl services-text centered">
+    <h2 class="animated fadeInUp services-text">
+      1:1 <br> <span class="highlight">Coaching</span>
+    </h2>
+
   </div>
 
-  <div class="col-7_sm-12 services-text centered">
-    <h2> Whether you're looking for 1-on-1 coaching or group work, it's time you took back control of your life and dreams!</h2>
-    <br>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <br>
-    <a href="/services" class="primary-button"> See All My Services </a>
+  <div class="col-4_xs-12 vl vl-sml-none services-text centered">
+    <!-- <i class="fa fa-map-marker"></i> -->
+    <h2 class="animated fadeInUp services-text">
+      Group <br> <span class="highlight">Coaching</span>
+  </div>
+
+  <div class="col-4_xs-12 vl-none services-text centered">
+    <!-- <i class="fa fa-map-marker"></i> -->
+    <h2 class="animated fadeInUp services-text">
+      Workshops <br> <span class="highlight"> + Events</span>
+    </h2>
+  </div>
+
+
+
+  <div class="col-12 services-button centered">
+    <a href="/programs" class="primary-button"> Let's Work Together! </a>
   </div>
 </section>
 
@@ -93,70 +105,76 @@
   <div class="col-12 quote-mark">
     <h1> " </h1>
   </div>
-
+<div class="grid">
   <div class="slideshow-container col-10">
       <div class="mySlides slide1 fade editable">
         <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </p>
         <br>
         <h2> - Natasha Verdon </h2>
+        <div class="slide-dots">
+          <i class="far fa-circle"></i>
+          <i class="fas fa-circle"></i>
+          <i class="fas fa-circle"></i>
+        </div>
       </div>
 
       <div class="mySlides slide2 fade editable">
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         <br>
         <h2> - Joanna Nadeer </h2>
+        <div class="slide-dots">
+          <i class="fas fa-circle"></i>
+          <i class="far fa-circle"></i>
+          <i class="fas fa-circle"></i>
+        </div>
       </div>
 
       <div class="mySlides slide2 fade editable">
         <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         <br>
-        <h2> - Lali Smith </h>
+        <h2> - Lali Smith </h2>
+          <div class="slide-dots">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="far fa-circle"></i>
+          </div>
       </div>
     </div>
-
+</div>
 
 </section>
 
-<section class="grid info editable">
+<section class="grid info editable ">
   <div class="col-6_sm-12 info-text centered">
-    <h2> How life coaching taught me to <span class="highlight">show compassion</span> for myself and others</h2>
-    <br>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <br>
-    <a href="/about" class="secondary-button"> Read More </a>
+    <h2> After working with my coach for two years, <span class="highlight">I was inspired and thrilled</span> by my experience and the value she brought to my life, and <span class="highlight">I realized my own desire to become a coach as well.</span> </h2>
+
+    <br><br>
+    <a href="/about" class="primary-button"> Read More </a>
   </div>
 
-  <div class="col-6_sm-12 info-img"></div>
+  <div class="col-5_sm-12 info-img editable">
+    <img src="/images/Untitled_Artwork.png">
+  </div>
 </section>
 
-<section class="subscription-box centered">
-  <h2> Let's Keep </h2>
-  <h2> In Touch </h2>
-  <p> Here we write something cute and fun to get people
-  <br> to sign up for emails from you! </p>
-  <br>
-  <form class="col-12 services-form" action="https://formspree.io/chasewilmot@yahoo.com" method="POST">
-    <input type="email" name="_replyto" class="contact-input" placeholder="Your Name"></input>
-    <input type="email" name="_replyto" class="contact-input" placeholder="Your Email"></input>
-    <input type="submit" value="submit" class="contact-button">
-  </form>
-</section>
+
 
 <!-- IG -->
 
 
 
 <!-- <div class="IG-feed grid"> -->
-<!-- LightWidget WIDGET --><!-- LightWidget WIDGET -->
-<!--
-<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/02287c4d2aad5f1a9358790e02ea05ba.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-</div> -->
+
+<!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/b60513da00f75602aaa013748966e39f.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
+
 
 <footer class="grid footer centered">
-  <div class="col-7 footer-menu space-around">
-    <a href="/"> Home </a>
-    <a href="/services"> Services </a>
-    <a href="/about"> About </a>
+  <div class="col-8_md-11 footer-menu space-around">
+    <a href="/index"> HOME </a>
+    <a href="/about"> ABOUT </a>
+    <img src="/images/siteicon.png">
+    <a href="/programs"> PROGRAMS </a>
+    <a href="/contact"> CONTACT </a>
   </div>
 <div class="col-12 copyrights">
 <h5> Copyright of Chase Wilmot 2020. </h5>

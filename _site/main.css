@@ -22,10 +22,24 @@ a{
   padding:0;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin:0;
+}
+
 /* FONTS */
 
+@font-face{
+  src:url("/fonts/Audrey-Normal.otf");
+  font-family: audrey;
+}
+
+@font-face{
+  src:url("/fonts/BOSQUE.otf");
+  font-family:bosque;
+}
+
 :-webkit-any(article,aside,nav,section) h1{
-  font-size:55px;
+  font-size:25px;
 }
 
 p{
@@ -37,9 +51,13 @@ h1{
 }
 
 h2, h3, a {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'audrey';
   font-weight:500;
   line-height: 28px;
+}
+
+h3{
+  font-size:25px;
 }
 
 h2{
@@ -49,7 +67,12 @@ h2{
 h4, p, h5 {
   font-family: brandon-grotesque, sans-serif;
   font-weight:300;
-  font-size:17px;
+  font-size:20px;
+}
+
+.full-highlight{
+    background-color:white;
+    line-height:34px;
 }
 
 /* Helper Classes */
@@ -64,23 +87,26 @@ h4, p, h5 {
 .primary-button{
   border: 2px solid black;
   padding:10px;
+  font-family: brandon-grotesque, sans-serif;
 }
 
 .primary-button:hover{
-  border: 2px solid #B7C1EB;
-  background-color:#B7C1EB;
+  border: 2px solid #ABDED4;
+  background-color:#ABDED4;
   color:white;
+
 }
 
 .secondary-button{
-  border: 2px solid #7A89C8;
-  background-color:#7A89C8;
+  border: 2px solid #ABDED4;
+  background-color:#ABDED4;
   padding:10px;
+  font-family: brandon-grotesque, sans-serif;
 }
 
 .secondary-button:hover{
-  border: 2px solid #B7C1EB;
-  background-color:#B7C1EB;
+  border: 2px solid #59C9B1;
+  background-color:#59C9B1;
   color:white;
 }
 
@@ -96,21 +122,21 @@ h4, p, h5 {
 
 /* Nav */
 nav{
-  padding: 0 2rem;
-  padding-left: 4rem;
+  padding: 20px 4rem;
 }
+
 
 .mobile-menu{
   display:none;
 }
 
 .regular-menu a{
-  margin-top:4.5rem;
+  margin-top:39px;
 }
 
 .regular-menu a:hover{
-  color:#7A89C8;
-  transition:0.35s;
+  color:#873340;
+  transition:0.5s;
 }
 
 /* Burger */
@@ -122,42 +148,33 @@ nav{
 .burger-menu{
   display:none;
 }
+
 /* header */
 
-.ml9 {
-  position: relative;
-  font-weight: 200;
-  font-size: 4em;
-}
-
-.ml9 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.ml9 .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
-}
 
 .title{
-  padding:3rem 5rem 3rem;
+    padding: 0rem 3rem 0rem 4rem;
 }
 
 .title-img{
-  background-image:url("/images/chase-portrait.png");
-  background-position:center;
-  background-size:cover;
-  padding:5rem;
+  position:relative;
+  padding:1rem 5rem;
+}
+
+.logo img{
+  margin-top: 15px;
 }
 
 .title-intro{
-  padding: 3rem 0rem 2rem 4rem;    margin-bottom: 1rem;
+  position: absolute;
+      bottom: 27%;
+      margin: auto;
+      text-align: left;
+      right: 9%;
+}
+
+.blue-banner{
+  background: linear-gradient(white 17%,#E5E5F9 0%, #E5E5F9 60%, #E5E5F9 80%, white 25%);
 }
 
 
@@ -166,33 +183,52 @@ nav{
 
 .title-services{
   padding:4rem;
-  background-color:#EE5219;
 }
 
-.services-text a{
+
+.fa-map-marker{
+  margin-bottom:10px;
+  margin-bottom: 15px;
+  font-size: 25px;
   color:white;
-  border: 2px solid white;
-}
-
-.big-quote{
-  text-align:right;
-  color:white;
-  border-right: 2px solid white;
-  font-size: 50px;
-  padding-right:20px;
-  padding-top: 7px;
-}
-
-.big-quote h1{
-  line-height: 1em;
-  font-size:60px;
 }
 
 .services-text{
+  padding:3rem 0rem 1rem;
+}
+
+.services-text h2{
+  margin-bottom:10px;
+}
+
+
+.vl{
+  border-right:2px solid black;
+  padding:0 20px;
+}
+
+.vl-none{
+  padding:0 20px;
+}
+
+.services-button{
+  margin-top:3rem;
+  color:black;
+}
+
+.services-button a{
+  border:2px solid black;
+  color:black;
+}
+
+.services-button a:hover{
+  border: 2px solid #ABDED4;
+  background-color:none;
   color:white;
-  padding: 3rem 5rem;
-  padding-right: 3rem;
-  padding-bottom:2rem;
+}
+
+.border-none{
+  border:none;
 }
 
 /* TESTIMONIALS */
@@ -200,24 +236,27 @@ nav{
 .quote-mark{
   text-align:right;
   padding:0;
+  color:white;
 }
 
 .quote-mark h1{
   width: 90%;
   font-size: 126px;
   line-height: 0px;
-  font-family: 'Macondo', cursive;
+  font-family: bosque;
+  color:white;
 }
 
 .testimonials{
-  height: 66vh;
-  padding: 8rem 0rem 10rem 8rem;
-  background-color:#E7AEE3;
+  /* height: 70vh; */
+  padding: 8rem 0rem 0rem 8rem;
+  background-color:#EF6B48;
   color:white;
 }
 
 .testimonials p{
   font-size:22px;
+  color:white;
 }
 
 /* .slideshow-container{
@@ -234,32 +273,31 @@ nav{
   text-align:center;
 }
 
+.mySlides{
+  height:50vh;
+}
+
 
 /* TITLE ABOUT */
 
 .info{
-  padding:4rem 4rem 0;
+  padding:4rem 4rem;
 }
 
 .info-text{
   padding:2rem 3rem 2rem 0;
+  margin:auto;
 }
 
-.info-img{
-  background-image:url("/images/chase-portrait.png");
-  background-position:center;
-  background-size:cover;
-  padding:5rem;
-}
 
 
 
 /* Footer */
 
-.IG-info{
-  background-color:#EFEDE1;
-  padding:2rem;
+footer{
+  background-color:#ECF1EB;
 }
+
 
 .footer-menu{
   width: 80%;
@@ -268,14 +306,26 @@ nav{
   margin-bottom:12px;
 }
 
-.copyrights h5{
-  font-size:12px;
-  line-height:0px;
+.footer img{
+  margin-bottom:5px;
 }
 
+.copyrights h5{
+  font-size:12px;
+  line-height:15px;
+  width: 94%;
+}
+
+.copyrights a:hover{
+  color:#e5bc5c;
+}
+
+.footer-menu a{
+  margin:auto;
+}
 
 .footer-menu a:hover{
-  color:#7A89C8;
+  color:#873340;
 }
 
 /* services page */
@@ -283,6 +333,12 @@ nav{
   padding:5rem 5rem 0;
   position:relative;
 }
+
+.second-service h3{
+  font-weight:bold;
+  font-size:20px;
+}
+
 
 .services-title{
   margin-bottom:2rem;
@@ -322,26 +378,7 @@ nav{
   margin-bottom:5rem;
 }
 
-.services a{
-  border: 2px solid #EE5219;
-  /* padding:5px; */
-  color:#EE5219;
-  /* starting here is the fixed button */
-  border-radius: 3rem;
-  padding: 20px;
-  position: fixed;
-  bottom: 10%;
-  right: 4%;
-  width: 6rem;
-  padding: 1rem;
-  min-height: 3rem;
-}
 
-.services a:hover{
-  border: 2px solid #de6c43;
-  background-color:#de6c43;
-  color:white;
-}
 
 
 .third-service p{
@@ -351,17 +388,21 @@ nav{
 /* SERVICES form */
 
 .schedule{
-  padding:2rem 0;
-  margin:2rem 10rem;
-  background-color:#7A89C8;
-  color:white;
+  padding: 2rem;
+  background-color: #D8D8F6;
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
+
+
 .schedule h1{
   font-size:30px;
 }
 
 input, textarea{
-width: 65%;
+width: 80%;
 padding: 5px;
 margin:5px 0;
 }
@@ -373,16 +414,16 @@ textarea{
 
 .contact-button{
   height: 2rem;
-  width: 65%;
-  background-color: #b7c1eb;
-  border: 1px solid #b7c1eb;
+  width: 80%;
+  background-color:#C1C1EB;
+  border: 1px solid #C1C1EB;
   font-size: 15px;
   color:white;
 }
 
 .contact-button:hover{
-  background-color:#cad1ef;
-  border:1px solid #cad1ef;
+  background-color:#A2A2D3;
+  border:1px solid #A2A2D3;
 }
 
 /* ABOUT PAGE */
@@ -392,39 +433,104 @@ textarea{
 }
 
 .highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 52%, #cad1ef 52%);
-    line-height:32px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #B8D4D1 50%);
+    line-height:37px;
+}
+
+.highlight-2{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #B8D4D1 50%);
+    line-height:24px;
 }
 
 .about-me{
-  padding:5rem 5rem 4rem
+  padding:5rem 3rem 4rem;
 }
 
 .about-me-text{
-  padding:2rem 1rem 2rem 4rem;
+  padding:2rem 1rem 2rem 2rem;
 }
 
-.about-me-images{
-  background-image:url("/images/california-coast.png");
+.h1-about{
+  font-family: 'Yeseva One', cursive;
+  font-size:35px;
+}
+
+.about-me-text-extra{
+  padding:3rem 5rem 0;
+}
+
+.about-me-text-extra h2{
+  margin-bottom:15px;
+}
+
+.about-me-text-extra p{
+  width: 85%;
+margin: auto;
+}
+
+.about-me-text h2{
+  font-size: 25px;
+}
+
+/* .about-me-images{
+  background-image:url("/images/chase_july2019069.jpg");
   background-position:center;
   background-size:cover;
-  padding:5rem;
-}
+  padding:7rem;
+} */
 
-.subscription-box{
-  padding: 2rem 0;
-  margin: 4rem 13rem;
-  background-color: #7A89C8;
-  color: white;
-}
+/* .subscription-box{
+  padding: 2rem 2rem;
+  margin: 4rem 8rem;
+  background-color: #BAD9B5;
+} */
 
 .subscription-box h2{
+  width: 80%;
+  margin: auto;
   margin-bottom:8px;
 }
 
 /* MEDIA QUERIES */
 
+@media (max-width:1160px){
+
+.title-intro{
+  bottom: 27%;
+  margin: auto;
+  right: 4%;
+}
+
+}
+
+@media (max-width: 1024px){
+  .title-intro{
+    bottom: 27%;
+    margin: auto;
+    right: 4%;
+  }
+
+}
+
+@media (max-width: 900px){
+  .title-intro{
+    bottom: 27%;
+    margin: auto;
+    right: 2%;
+  }
+.title-img{
+  position: relative;
+padding: 1rem 3rem;
+}
+}
+
 @media (max-width: 768px){
+
+  .footer-menu a{
+    margin:auto;
+    font-size: 10px;
+  }
+
 .display-none{
   display:none;
 }
@@ -463,9 +569,13 @@ white-space: normal;
     display:none;
   }
 
+  nav{
+    padding:1rem;
+  }
+
   .burger-button{
     position:fixed;
-    top:4vh;
+    top:3vh;
     right:0vh;
     z-index:9;
     padding:8px;
@@ -473,15 +583,15 @@ white-space: normal;
 
   .burger-button span{
     width:30px;
-    border: 2px solid #e3b053;
-    background-color:#e3b053;
+    border: 2px solid #671F26;
+    background-color:#671F26;
     display: block;
     border-radius:22px;
     transition: 1s;
   }
 
   .burger-button.active span{
-    background-color:#e3b053;
+    background-color:#671F26;
   }
 
   .burger-top, .burger-bottom{
@@ -531,7 +641,7 @@ white-space: normal;
 
 .burger-menu a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 33px;
   font-weight: 300;
   color: #7a7876;
   display:block;
@@ -541,6 +651,140 @@ white-space: normal;
 }
 
 .burger-menu li{list-style:none}
+
+.title-intro{
+  padding: 0;
+}
+
+.title-img{
+  padding: 1rem 0rem;
+}
+
+
+
+.title{
+  padding:0 2rem;
+}
+
+.title-img{
+  margin:auto;
+  padding:1rem;
+}
+
+.title-services{
+  padding: 2rem 2rem 0;
+  background: linear-gradient(to bottom,#e5e5f9 2%,#fff %);
+}
+
+.title-intro{
+  position: relative;
+/* bottom: 0; */
+margin: auto;
+text-align: center;
+/* right: 14%; */
+width: 100%;
+padding:0 2rem;
+}
+
+.blue-banner{
+  background:linear-gradient(white 17%,#e5e5f9 0,#e5e5f9 60%,#e5e5f9 100%);
+  margin-bottom:-2px;
+}
+
+
+.testimonials{
+  padding:5rem 0 0rem 5rem;
+}
+
+.mySlides{
+  height:65vh;
+}
+
+
+.services-button{
+  margin:3rem 0;
+}
+
+.info{
+  padding:4rem 3rem 0;
+}
+
+.info-img{
+  order:-1;
+  text-align:center;
+}
+
+.info-text{
+  padding: 2rem 0rem;
+}
+
+.info-text h2, .info-text p{
+  width:80%;
+  margin:auto;
+}
+
+.subscription-box{
+  width: 85%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.services{
+  padding:3rem 3rem;
+}
+
+.services div{
+  margin-bottom:3rem;
+}
+
+.services p{
+  padding: 0 0rem;
+width: 100%;
+margin: auto;
+margin-bottom: 0rem;
+}
+
+.about-me{
+  padding:0;
+}
+
+.about-me-text{
+  padding: 3rem;
+    text-align: center;
+}
+
+.about-me-text-extra{
+  padding:0rem 5rem 3rem;
+}
+
+}
+
+@media (max-width: 576px){
+
+  .vl{
+    border-right:none;
+    border-bottom:2px solid black;
+    padding: 10px 0;
+
+  }
+
+.testimonials{
+padding: 5rem 0 15rem 3rem;
+}
+
+.title-intro h1{
+  /* margin-left:40px; */
+  width:100%;
+}
+
+.subscription-box{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  padding: 2rem;
+}
 
 
 }
