@@ -148,6 +148,7 @@ nav{
 .burger-menu{
   display:none;
 }
+
 /* header */
 
 
@@ -395,7 +396,7 @@ footer{
   margin-bottom: 4rem;
 }
 
-}
+
 .schedule h1{
   font-size:30px;
 }
