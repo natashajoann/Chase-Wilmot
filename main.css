@@ -267,6 +267,11 @@ nav{
     right: 3vh;
 }
 
+.far, .fas{
+  color: #ffffff61;
+margin: 0 5px;
+}
+
 /* .slideshow-container{
   position:relative;
   margin:auto;
@@ -702,6 +707,10 @@ padding:0 2rem;
 
 .testimonials{
   padding:5rem 0 0rem 5rem;
+}
+
+.slide-dots{
+  bottom:2vh;
 }
 
 .mySlides{
