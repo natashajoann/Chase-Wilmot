@@ -479,11 +479,10 @@ margin: auto;
   font-size: 25px;
 }
 
-.about-me-images{
-  background-image:url("/images/california-coast.png");
-  background-position:center;
-  background-size:cover;
-  padding:10rem;
+.about-me-images img{
+
+  width:80%;
+  margin:auto;
 }
 
 /* .subscription-box{
