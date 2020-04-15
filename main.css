@@ -252,11 +252,19 @@ nav{
   padding: 8rem 0rem 0rem 8rem;
   background-color:#EF6B48;
   color:white;
+  position:relative;
 }
 
 .testimonials p{
   font-size:22px;
   color:white;
+}
+
+.slide-dots{
+  position: absolute;
+    left: 0;
+    bottom: 3vh;
+    right: 3vh;
 }
 
 /* .slideshow-container{
