@@ -456,7 +456,7 @@ textarea{
 }
 
 .about-me{
-  padding:5rem 3rem 4rem;
+  padding:0rem 3rem 4rem;
 }
 
 .about-me-text{
@@ -464,9 +464,9 @@ textarea{
 }
 
 .about-me-text img{
-  float:left;
-  width:60%;
-  margin:2rem;
+  float: left;
+    width: 39%;
+    margin: 0 2rem 0 0;
 }
 
 .h1-about{
