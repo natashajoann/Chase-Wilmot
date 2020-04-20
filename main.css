@@ -162,7 +162,7 @@ nav{
   background-image:url("/images/IMG_0986.jpg");
   background-position:center;
   background-size:cover;
-  max-height:610px;
+  min-height:610px;
   padding:5rem;
 }
 
