@@ -446,12 +446,12 @@ textarea{
 }
 
 .highlight{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e7aee3 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e5cde4 50%);
     line-height:37px;
 }
 
 .highlight-2{
-    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e7aee3 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e5cde4 50%);
     line-height:24px;
 }
 
