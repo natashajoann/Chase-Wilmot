@@ -545,6 +545,8 @@ margin: auto;
   .index-header img{
     max-width:400px;
     margin:auto;
+    margin-bottom: 16px;
+    display: block;
   }
 
   .title-intro{
