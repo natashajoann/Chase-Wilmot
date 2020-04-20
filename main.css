@@ -156,15 +156,20 @@ nav{
     padding: 0rem 3rem 0rem 4rem;
 }
 
-.index-header{
+.index-header img{
+  max-width:500px;
+  margin:auto;
+}
+
+/* .index-header{
   position:relative;
   padding:1rem 5rem;
-  /* background-image:url("/images/IMG_0986.jpg");
+  background-image:url("/images/IMG_0986.jpg");
   background-position:center;
-  background-size:cover; */
+  background-size:cover;
   max-height:610px;
   padding:5rem;
-}
+} */
 
 .logo img{
   margin-top: 15px;
@@ -537,6 +542,11 @@ margin: auto;
 }
 
 @media (max-width: 900px){
+  .index-header img{
+    max-width:400px;
+    margin:auto;
+  }
+
   .title-intro{
     bottom: 20%;
     margin: auto;
@@ -546,6 +556,7 @@ margin: auto;
   position: relative;
 padding: 1rem 3rem;
 }
+
 }
 
 @media (max-width: 768px){
