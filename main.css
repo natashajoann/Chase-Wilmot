@@ -26,6 +26,10 @@ a{
   margin:0;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+}
+
 /* FONTS */
 
 @font-face{
