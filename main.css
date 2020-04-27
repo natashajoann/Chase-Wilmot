@@ -181,7 +181,7 @@ nav{
 
 .title-intro{
   position: absolute;
-      bottom: 27%;
+      bottom: 20%;
       margin: auto;
       text-align: left;
       right: 9%;
@@ -531,7 +531,7 @@ margin: auto;
 @media (max-width:1160px){
 
 .title-intro{
-  bottom: 23%;
+  bottom: 19%;
   margin: auto;
   right: 4%;
 }
@@ -540,7 +540,7 @@ margin: auto;
 
 @media (max-width: 1024px){
   .title-intro{
-    bottom: 20%;
+    bottom: 19%;
     margin: auto;
     right: 4%;
   }
@@ -556,7 +556,7 @@ margin: auto;
   }
 
   .title-intro{
-    bottom: 20%;
+    bottom: 19%;
     margin: auto;
     right: 2%;
   }
