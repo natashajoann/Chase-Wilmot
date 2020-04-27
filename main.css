@@ -172,6 +172,7 @@ nav{
   background-position:center;
   background-size:cover;
   min-height:610px;
+  min-width:450px;
   height:80vh;
   padding:5rem;
 }
@@ -842,6 +843,11 @@ padding: 5rem 0 8rem 3rem;
   margin-top: 2rem;
   margin-bottom: 0rem;
   padding: 2rem;
+}
+
+.index-header {
+  margin:auto;
+  width:70%;
 }
 
 
