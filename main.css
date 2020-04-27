@@ -168,10 +168,11 @@ nav{
 .index-header{
   position:relative;
   padding:1rem 5rem;
-  background-image:url("/images/IMG_0986.jpg")no-repeat center center;
-  /* background-position:center;
-  background-size:cover; */
-  max-height:610px;
+  background-image:url("/images/IMG_0986.jpg");
+  background-position:center;
+  background-size:cover;
+  min-height:610px;
+  height:80vh;
   padding:5rem;
 }
 
