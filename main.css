@@ -165,15 +165,15 @@ nav{
   margin:auto;
 }
 
-/* .index-header{
+.index-header{
   position:relative;
   padding:1rem 5rem;
-  background-image:url("/images/IMG_0986.jpg");
-  background-position:center;
-  background-size:cover;
+  background-image:url("/images/IMG_0986.jpg")no-repeat center center;
+  /* background-position:center;
+  background-size:cover; */
   max-height:610px;
   padding:5rem;
-} */
+}
 
 .logo img{
   margin-top: 15px;
