@@ -44,7 +44,7 @@ var slideIndex = 1;
       slideIndex++;
       if (slideIndex > slides.length) {slideIndex = 1}
       slides[slideIndex-1].style.display = "block";
-      setTimeout(showSlides, 4000);
+      setTimeout(showSlides, 8000);
   }
 
   var textWrapper = document.querySelector('.ml9 .letters');
