@@ -856,6 +856,7 @@ padding: 5rem 1rem 7rem ;
 .title-intro h1{
   /* margin-left:40px; */
   width:100%;
+  padding-left:6px;
 }
 
 .subscription-box{
