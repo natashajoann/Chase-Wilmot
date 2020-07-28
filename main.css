@@ -846,7 +846,11 @@ margin-bottom: 0rem;
   }
 
 .testimonials{
-padding: 5rem 0 8rem 3rem;
+padding: 5rem 1rem 7rem ;
+}
+
+.mobile-none{
+  display:none;
 }
 
 .title-intro h1{
