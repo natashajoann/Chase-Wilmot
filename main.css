@@ -576,7 +576,7 @@ padding: 1rem 3rem;
     .index-header {
     min-height: 0;
     min-width: 0;
-    height: 80vh;
+    height: 55vh;
     padding: 5rem;
     width:70%;
     margin:auto;
@@ -594,6 +594,16 @@ padding: 1rem 3rem;
 
 .regular-menu{
   display:none;
+}
+
+.title-intro h1{
+  font-size: 20px;
+    line-height: 16px;
+    padding: 20px 0 10px;
+}
+
+.full-highlight{
+  line-height:25px;
 }
 
 /* BURGER MENU */
