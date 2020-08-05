@@ -584,6 +584,10 @@ margin: auto;
     right: 4%;
   }
 
+  .info-img img{
+    display:none;
+  }
+
 }
 
 @media (max-width: 900px){
@@ -604,9 +608,7 @@ margin: auto;
 padding: 1rem 3rem;
 }
 
-.info-img img{
-  display:none;
-}
+
 
 }
 
