@@ -124,6 +124,11 @@ h4, p, h5 {
   justify-content:space-between;
 }
 
+.justify-center{
+  justify-content:center;
+  margin:Auto;
+}
+
 /* Nav */
 nav{
   padding: 20px 4rem;
