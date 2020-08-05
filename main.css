@@ -351,6 +351,10 @@ margin: 0 5px;
   margin:auto;
 }
 
+.info-img {
+  margin:auto;
+}
+
 
 
 
@@ -600,6 +604,10 @@ margin: auto;
 padding: 1rem 3rem;
 }
 
+.info-img img{
+  display:none;
+}
+
 }
 
 @media (max-width: 768px){
@@ -811,10 +819,7 @@ width: 100%;
   padding:4rem 3rem 0;
 }
 
-.info-img{
-  order:-1;
-  text-align:center;
-}
+
 
 .info-text{
   padding: 2rem 0rem;
