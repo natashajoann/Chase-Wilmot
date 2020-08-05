@@ -202,6 +202,20 @@ nav{
   color:white;
 }
 
+.signup button{
+  background-color:#9faff2;
+  color:white;
+  padding:5px;
+}
+
+.signup button: hover{
+  background-color:#a6b5f2;
+}
+
+.js-cm-form{
+  margin-left:4rem;
+}
+
 
 /* SERVICES on HOME */
 
