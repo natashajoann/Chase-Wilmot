@@ -194,6 +194,14 @@ nav{
   background: linear-gradient(white 17%,#7a89c8 0%, #7a89c8 60%, #7a89c8 80%, white 25%);
 }
 
+.signup {
+  background-color:#7a89c8;
+}
+
+.signup h1{
+  color:white;
+}
+
 
 /* SERVICES on HOME */
 
