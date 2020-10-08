@@ -296,7 +296,7 @@ nav{
   color:white;
 }
 
-.testimonials_hex{
+.testimonials_hex, .test-imonials_hex{
   /* height: 70vh; */
   padding: 8rem 0rem 0rem 8rem;
   background-color:#ee5235;
@@ -500,7 +500,7 @@ textarea{
   margin:25px 0;
 }
 
-.highlight_hex{
+.highlight_hex, .test-highlight_hex{
     background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e7aee3 50%);
     line-height:37px;
 }
@@ -887,6 +887,7 @@ margin-bottom: 0rem;
 .testimonials{
 padding: 5rem 1rem 7rem ;
 }
+
 
 .mobile-none{
   display:none;
