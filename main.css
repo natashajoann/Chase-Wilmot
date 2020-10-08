@@ -195,11 +195,11 @@ nav{
       right: 9%;
 }
 
-.blue-banner{
+.blue-banner_hex{
   background: linear-gradient(white 17%,#7a89c8 0%, #7a89c8 60%, #7a89c8 80%, white 25%);
 }
 
-.signup {
+.signup_hex {
   background-color:#7a89c8;
   padding: 4rem 1rem;
   margin:auto;
@@ -296,7 +296,7 @@ nav{
   color:white;
 }
 
-.testimonials{
+.testimonials_hex{
   /* height: 70vh; */
   padding: 8rem 0rem 0rem 8rem;
   background-color:#ee5235;
