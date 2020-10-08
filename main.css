@@ -500,7 +500,7 @@ textarea{
   margin:25px 0;
 }
 
-.highlight{
+.highlight_hex{
     background: linear-gradient(180deg,rgba(255,255,255,0) 56%, #e7aee3 50%);
     line-height:37px;
 }
