@@ -296,7 +296,7 @@ nav{
   color:white;
 }
 
-.testimonials_hex, .test-imonials_hex{
+.testimonials_hex, {
   /* height: 70vh; */
   padding: 8rem 0rem 0rem 8rem;
   background-color:#ee5235;
