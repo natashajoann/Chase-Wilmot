@@ -304,11 +304,11 @@ nav{
   position:relative;
 }
 
-.testimonials, {
+.testimonials {
   /* height: 70vh; */
-  padding: 8rem 4rem 2rem;
-  color:white;
-  position:relative;
+  padding: 8rem 4rem 2rem !important;
+  color:white !important;
+  position:relative !important;
 }
 
 .testimonials p{
