@@ -304,6 +304,13 @@ nav{
   position:relative;
 }
 
+.testimonials, {
+  /* height: 70vh; */
+  padding: 8rem 4rem 2rem;
+  color:white;
+  position:relative;
+}
+
 .testimonials p{
   font-size:22px;
   color:white;
@@ -314,6 +321,7 @@ nav{
     left: 0;
     bottom: 3vh;
     right: 3vh;
+    justify-content: center;
 }
 
 .far, .fas{
