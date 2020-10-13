@@ -1,7 +1,28 @@
 ---
 layout: default
 title: Chase Wilmot | Contact Me
+contact-background_color: '#D8D8F6'
+button-background_color: '#C1C1EB'
+button-hover-background_color: '#A2A2D3'
 ---
+
+<style>
+
+  .schedule{
+    background-color:{{page.contact-background_color}};
+  }
+
+  .contact-button{
+    border: 1px solid {{page.button-background_color}};
+    background-color:{{page.button-background_color}};
+  }
+
+  .contact-button:hover{
+    background-color:{{page.button-hover-background_color}};
+    border:1px solid {{page.button-hover-background_color}};
+  }
+</style>
+
 
 <section class="subscription-box schedule centered">
   <div class="col-12 editable">
