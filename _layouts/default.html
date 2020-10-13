@@ -30,9 +30,15 @@
 <body>
 
 <style>
-  .bg-light_color{
-    background-color: {{site.data.design.variable-name}}
-    }
+  .primary-button{
+    border: 2px solid {{page.primary-button-background_color}};
+  }
+
+  .primary-button:hover{
+    border: 2px solid primary-hover-background_color;
+    background-color:primary-hover-background_color;
+    color:primary-text-background_color;
+  }
 </style>
 
   <nav class="naviagtion grid">
