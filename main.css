@@ -199,10 +199,11 @@ nav{
   background: linear-gradient(white 17%,#7a89c8 0%, #7a89c8 60%, #7a89c8 80%, white 25%);
 }
 
-.signup_hex {
+.signup {
   background-color:#7a89c8;
   padding: 4rem 1rem;
   margin:auto;
+  border:none;
 }
 
 .signup h1{
